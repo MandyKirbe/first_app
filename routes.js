@@ -2,12 +2,26 @@
 
 const express = require("express");
 const router = express.Router();
+const app = express();
 
-const faker = require("faker");
 
-let db = require("./db");
+//let db = require("./db");
+
+//Especifica a pasta contendo arquivos estáticos
+//O nome "public" não precisará ser colocado na rota
+//Para serem alcançados os arquivos e pastas que estão dentro dele
+//Por isso na imagem que está na pasta home.ejs só há o indicativo (alguma coisa)
 
 router.use(express.static('public'));
+
+
+
+//exemplo rotas:
+/*
+ http://localhost:3030/css 
+ http://localhost:3030/images
+ http://localhost:3030/index.html
+*/
 
 router.get('/',(req, res)=>{
     res.render('pages/home'); //é home.ejs mas o .ejs pode ser ocultado
@@ -15,13 +29,13 @@ router.get('/',(req, res)=>{
 
 router.get('/about',(req,res)=>{
 
-    let usuarios=[];
+    /*let usuarios=[];
     //Usando o Faker para criar 6 perfis para colocar no about
     for(let cont=1;cont<=6;cont++){
         usuarios.push({name:faker.  name.findName(),email:faker.internet.email(),avatar: faker.image.image()}); 
     }
-    console.log(usuarios);
-    res,render('pages/about',{usuarios});
+    console.log(usuarios);*/
+    res.render('pages/about');
 });
 
 router.get('/curriculo',(req,res)=>{
@@ -31,8 +45,9 @@ router.get('/curriculo',(req,res)=>{
 router.get('/cadastro/insert',(req,res)=>{ 
     //inserir um usuario 
 }); 
-router.get('/cadastro/list',(req,res)=>{ 
-//listar de usuarios cadastrado 
+router.get('/cadastro',(req,res)=>{ 
+    //página de cadastro
+    res.render('pages/cadastro')
 }); 
 
 

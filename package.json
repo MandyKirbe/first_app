@@ -1,32 +1,33 @@
 {
-  "name": "first_app",
+  "name": "first-app",
   "version": "0.1.0",
-  "description": "Aplicação para cadastro de usuários",
+  "description": "Aplicação base em node.js",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MandyKirbe/first_app.git"
+    "url": "git+https://github.com/wwagner33/first-app2.git"
   },
   "keywords": [
-    "node",
-    "web",
-    "app",
-    "user",
-    "managing"
+    "node.js",
+    "express",
+    "ejs",
+    "express-ejs-layout"
   ],
-  "author": "Amanda Ribeiro de Lima",
-  "license": "GPL-3.0-or-later",
+  "author": "Wellington Wagner F. Sarmento",
+  "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/MandyKirbe/first_app/issues"
+    "url": "https://github.com/wwagner33/first-app2/issues"
   },
-  "homepage": "https://github.com/MandyKirbe/first_app#readme",
+  "homepage": "https://github.com/wwagner33/first-app2#readme",
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.1",
-    "express-ejs-layouts": "^2.5.1",
+    "express-ejs-layouts": "^2.5.1"
+  },
+  "devDependencies": {
     "faker": "^5.5.3"
   }
 }

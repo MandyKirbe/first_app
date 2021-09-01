@@ -14,3 +14,33 @@ html{
     display:inline-block;
     transform: rotate(180deg);
   }
+
+.h1{
+    font-family: 'Courgette', sans-serif;
+    color: crimson;
+
+}
+
+.centertext {
+    text-align: center;
+    padding-top: 20px;
+    color: crimson;
+
+
+  }
+
+.centerimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
+
+.colortext{
+    color:crimson;
+}
+
+.colortitle {
+    color: crimson;
+    padding-top: 20px;
+}

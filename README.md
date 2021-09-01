@@ -3,18 +3,13 @@
 Software criado para discutir os conceitos de criação de uma aplicação Web usando o Design Pattern Model-View-Controller, bem como o uso do Javascript tanto no cliente quanto no servidor.
 
 ## Autor
-
-Mattheus Del Vianple Curacy Oliveira
-
-## Co-autor
-
-Wellington Wagner F. Sarmento
+Amanda Ribeiro de Lima
 
 ## Colaboradores
-
-Lilian Paula Lima de Maria
-Vaneska Karen de Sousa Silva
-Rightsaidfre - https://stackoverflow.com/users/376743/rightsaidfred
+Wellington Wagner F. Sarmento
+Mattheus Del Vianple Curacy Oliveira
+Isadora Bruno Leite
+Minhas gatas que dormiram no meu colo enquanto eu fazia o first_app
 
 ## Licença
 
